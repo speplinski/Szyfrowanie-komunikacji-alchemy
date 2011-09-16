@@ -1,0 +1,8 @@
+Szyfrowanie przesyłania wyników gier
+http://lab.180hb.com/2010/07/szyfrowanie-komunikacji-klient-serwer-alchemy/
+
+LAB^180 (http://lab.180hb.com)
+Szymon P. Peplinski (speplinski@180hb.com)
+
+Przykład użycia Adobe Alchemy w celu szyfrowania komunikacji klient-serwer przez algorytm kryptograficzny.
+Do szyfrowania i deszyfrowania tekstu jawnego wykorzystuje klucz Rijndael.

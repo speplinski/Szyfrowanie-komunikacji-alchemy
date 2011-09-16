@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="CryptoMain" default="compile">
+	<property name="flex.mxmlc" value="mxmlc"/>
+	<property name="deploy.dir" value="../deploy"/>
+	<property name="src.dir" value="../src"/>
+	<target name="compile">
+		<exec executable="${flex.mxmlc}" failonerror="true">
+			<arg line="-output '${deploy.dir}/AlchemyCrypto.swf'"/>
+			<arg line="${src.dir}/AlchemyCrypto.as"/>
+		</exec>
+	</target>
+</project>
